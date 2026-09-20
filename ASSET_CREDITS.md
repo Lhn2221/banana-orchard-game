@@ -9,7 +9,7 @@ Downloaded 2026-09-13. External model files are bundled locally; gameplay does n
 | public/assets/banana.glb + Textures/colormap.png | [Food Kit 2.0 by Kenney](https://kenney.nl/assets/food-kit) | CC0; bundled Kenney-Food-License.txt | Runtime blue/rainbow material variants |
 | public/assets/tree.glb | [Nature Kit 2.1 by Kenney](https://kenney.nl/assets/nature-kit), tree_default.glb | CC0; bundled Kenney-Nature-License.txt | Runtime scale and placement |
 | public/assets/fence.glb | [Nature Kit 2.1 by Kenney](https://kenney.nl/assets/nature-kit), fence_planks.glb | CC0; bundled Kenney-Nature-License.txt | Runtime scale and placement |
-| public/assets/crown.glb | [Crown by Quaternius](https://poly.pizza/m/i0PZVuVlYv) | CC0 1.0 on the model page | Positioned on the stage-five apple boss; downloaded 2026-09-14 |
+| public/assets/crown.glb | [Crown by Quaternius](https://poly.pizza/m/i0PZVuVlYv) | CC0 1.0 on the model page | Positioned on the stage-three apple boss; downloaded 2026-09-14 |
 | public/assets/monkey-thumbs-up.png | [Monkey by Schade / ClipSafari](https://www.clipsafari.com/clips/o247295-monkey) | CC0, as stated on the download page | Legacy unused illustration; replaced by game-model portrait |
 
 The victory portrait renders the existing Quaternius monkey with its included Wave animation and adjusted finger pose; no new character geometry is created. Energy-ball leaves reuse the existing leaf mesh inside the user's apple GLB. The enclosing transparent sphere and explosion ring are gameplay effects, not newly modeled props. Golden/rainbow monkeys reuse Quaternius geometry and animation with runtime materials. Stage colors multiply the original Kenney materials. All images/models are served locally.
@@ -25,3 +25,14 @@ Google Fonts provides Jua and Noto Sans KR through its CSS service (SIL Open Fon
 - public/assets/coconut.glb: Kenney Food Kit 2.0 coconut, CC0. Uses existing Food Kit texture and license. Recolored for weapon tiers.
 - public/assets/rabbit.glb: Rabbit by Quaternius, CC0: https://poly.pizza/m/mKev485XTR . Includes run animation; runtime scaling and rank recoloring. Existing geometry, no new modeling.
 - Shop preview images are rendered locally from these models.
+
+## Version 3 shop skins (2026-09-20)
+
+- `public/assets/icecream.glb`: Kenney Food Kit 2.0 `ice-cream.glb`, CC0. https://kenney.nl/assets/food-kit
+- `public/assets/carrot.glb`: Kenney Food Kit 2.0 `carrot.glb`, CC0. https://kenney.nl/assets/food-kit
+- `public/assets/holiday/gingerbread.glb`: Kenney Holiday Kit 2.0 `gingerbread-man.glb`, CC0. https://kenney.nl/assets/holiday-kit
+- `public/assets/seaweed.glb`: [Seaweed on shore rock](https://3dassets.dev/assets/tropical-island-ecology-seaweed-on-rock-fa7f323d), 3DAssets.dev, CC0 1.0.
+- `public/assets/starfish.glb`: [Starfish](https://3dassets.dev/assets/sunken-city-and-underwater-ruins-starfish-619fba49), 3DAssets.dev, CC0 1.0.
+- `public/assets/seahorse.glb`: [sea horse](https://poly.pizza/m/2i8WB9jqzdc) by Device Lab, Creative Commons Attribution 3.0. Adapted only by runtime scaling, formation placement and gold/rainbow material variants. Attribution: “sea horse” by Device Lab, licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+
+All version 3 shop models are bundled locally. The 3DAssets.dev model pages and API identify their files as CC0 1.0. The seahorse is the only attribution-required model and is credited both here and in the in-game credits dialog.

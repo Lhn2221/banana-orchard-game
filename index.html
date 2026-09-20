@@ -1,16 +1,16 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#244839"><title>바나나 원정대 · Orchard Run</title>  <script type="module" crossorigin src="./index-DyUv2jGz.js"></script>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#244839"><title>바나나 원정대 · Orchard Run</title>  <script type="module" crossorigin src="./index-Cwz62zpK.js"></script>
   <link rel="modulepreload" crossorigin href="./three-DLXf5KpW.js">
-  <link rel="stylesheet" crossorigin href="./index-CyyjVVaU.css">
+  <link rel="stylesheet" crossorigin href="./index-DLg7yCRn.css">
 </head>
 <body><div id="app">
-<header><a class="brand" href="./">바나나 원정대<span>THE ORCHARD RUN</span></a><div class="header-right"><span class="season">다섯 숲의 원정</span><button id="sound" aria-label="소리 켜기">소리 OFF</button><button id="pause">일시정지</button></div></header>
+<header><a class="brand" href="./">바나나 원정대<span>THE ORCHARD RUN</span></a><div class="header-right"><span class="season">세 숲의 원정</span><button id="sound" aria-label="소리 켜기">소리 OFF</button><button id="pause">일시정지</button></div></header>
 <main><aside><div class="eyebrow">A LITTLE MATH. A BIG ADVENTURE.</div><h1>작은 바나나,<br>커다란 모험.</h1><p class="intro">원숭이를 모으고, 숲의 힘을 깨우고.<br>푸른 성역의 사과 왕을 향해!</p>
-<div class="stage-card"><span>오늘의 원정 · 다섯 개의 숲</span><h2 id="stage-title">01 초록빛 과수원</h2><div class="route"><i class="active"></i><b></b><i></i><b></b><i></i><b></b><i></i><b></b><i></i></div><p>과수원 → 이슬숲 → 정원 → 청록숲 → 성역</p></div>
+<div class="stage-card"><span>오늘의 원정 · 세 개의 숲</span><h2 id="stage-title">01 초록빛 과수원</h2><div class="route"><i class="active"></i><b></b><i></i><b></b><i></i></div><p>과수원 → 푸른 정원 → 밤의 성역</p></div>
 <div class="guide"><h3>원정 가이드</h3><p><em class="green">+ ×</em><span>초록 문으로 병력을 늘려요</span></p><p><em class="red">− ÷</em><span>사과와 충돌하면 병력을 잃어요</span></p><p><em class="gold">3→1</em><span>30마리 초과 시 합체·진화!</span></p><p><em class="green">7 잎</em><span>나뭇잎을 모아 폭발 스킬을 써요</span></p></div>
 <div class="weapons"><span>원숭이 진화 · 합쳐진 병력 기준</span><p>일반 <b>→</b> <strong class="gold-text">황금 ×1.3</strong> <b>→</b> <strong class="rainbow-text">무지개 ×1.6</strong></p><span>바나나 성장</span><p>일반 ×1 <b>→</b> <strong>파란 ×3</strong> <b>→</b> <strong class="rainbow-text">무지개 ×7</strong></p></div>
 <footer>Space 폭발 · P 일시정지<br><button id="credits">에셋 출처</button></footer></aside>
-<section class="game-shell"><div class="game-top"><span><i class="live"></i><b id="stage-label">STAGE 01 / 05</b></span><span id="best">최고 기록 —</span></div>
+<section class="game-shell"><div class="game-top"><span><i class="live"></i><b id="stage-label">STAGE 01 / 03</b></span><span id="best">최고 기록 —</span></div>
 <div id="viewport"><canvas id="game" aria-label="원숭이 부대를 좌우로 이동하는 3D 게임"></canvas>
 <div class="hud"><div><small>전투 원숭이</small><strong id="count">8<span>마리</span></strong><small id="evolution">일반 · 환산 병력 8</small></div><div><small>바나나 등급</small><strong id="weapon">일반 <span>×1</span></strong><small>자동 공격</small></div><div><small>전체 공격력</small><strong id="power">8</strong><small id="harvest">수확 0</small></div></div>
 <div class="progress"><div id="progress-fill"></div></div>
@@ -20,6 +20,6 @@
 <div id="overlay"><div class="overlay-card"><img id="victory-image" alt="게임 속 3D 원숭이의 축하 모습" hidden><span class="eyebrow" id="overlay-tag">WELCOME TO THE ORCHARD</span><h2 id="overlay-title">수확할 준비 됐나요?</h2><p id="overlay-desc">움직이는 사과를 피하고 숲의 에너지를 모으세요.<br>사과 왕과의 마지막 전투는 30초!</p><div id="clear-stats" hidden></div><button id="start" disabled>과수원 준비 중…</button><small id="load-status">3D 에셋 불러오는 중</small></div></div>
 <div class="control-hint">← → / A D / 드래그 &nbsp; · &nbsp; Space 폭발 &nbsp; · &nbsp; P 일시정지</div></div>
 <div class="game-bottom"><span>🍃 <b id="mission">숲의 원정을 준비하세요</b></span><span id="stage-distance">0%</span></div></section></main>
-<dialog id="credit-dialog"><h2>함께 만든 과수원</h2><p>사과·아이템 나뭇잎: Astra_Test의 Apple.blend</p><p>원숭이·토끼·왕관: Quaternius (CC0)<br>바나나·코코넛·자연·사탕: Kenney (CC0)<br>클리어 이미지: 게임 원숭이 모델을 렌더링 (CC0)</p><p><a href="./ASSET_CREDITS.md" target="_blank" rel="noopener">전체 에셋 출처와 라이선스 보기</a></p><button id="close-credits">닫기</button></dialog>
+<dialog id="credit-dialog"><h2>함께 만든 과수원</h2><p>사과·아이템 나뭇잎: Astra_Test의 Apple.blend</p><p>원숭이·토끼·왕관: Quaternius (CC0)<br>바나나·코코넛·아이스크림·당근·진저맨·자연·사탕: Kenney (CC0)<br>미역·불가사리: 3DAssets.dev (CC0)<br>해마: Device Lab (CC BY 3.0)<br>클리어 이미지: 게임 원숭이 모델을 렌더링 (CC0)</p><p><a href="./ASSET_CREDITS.md" target="_blank" rel="noopener">전체 에셋 출처와 라이선스 보기</a></p><button id="close-credits">닫기</button></dialog>
 </div></body></html>
 
